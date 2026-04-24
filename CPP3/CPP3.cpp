@@ -122,10 +122,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             v[3].Pos.x += 0.01f;
         }
 
-        
-        
-        
-        
         // 描画処理
         // 三角形の描画
         {          
@@ -169,6 +165,15 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             // デバイスコンテキスト、上記のセットした内容で描画する
             D3DManager::getInstance()->GetContext()->Draw(4, 0);
         }
+
+        //文字の描画
+            g_spriteBatch->Begin();
+
+        g_spriteFont->DrawString(g_spriteBatch.get(),
+            "Hello",
+            DirectX::XMFLOAT2{ 100, 100 });
+
+        g_spriteBatch->End();
 
         // バックバッファの内容を画面に表示
         D3DManager::getInstance()->Present();
