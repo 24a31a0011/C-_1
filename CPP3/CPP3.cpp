@@ -166,12 +166,23 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             D3DManager::getInstance()->GetContext()->Draw(4, 0);
         }
 
-        //文字の描画
-            g_spriteBatch->Begin();
+        // 文字の描画
+        g_spriteBatch->Begin();
 
+        std::wstring x0 = std::to_wstring(v[0].Pos.x);
         g_spriteFont->DrawString(g_spriteBatch.get(),
-            "Hello",
+            x0.c_str(),
             DirectX::XMFLOAT2{ 100, 100 });
+
+        g_spriteBatch->End();
+
+        // 文字の描画
+        g_spriteBatch->Begin();
+
+        std::wstring y0 = std::to_wstring(v[1].Pos.y);
+        g_spriteFont->DrawString(g_spriteBatch.get(),
+            y0.c_str(),
+            DirectX::XMFLOAT2{ 100, 150 });
 
         g_spriteBatch->End();
 

@@ -1,3 +1,2 @@
 ﻿  CPP3.cpp
-DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(SpriteBatch.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
   CPP3.vcxproj -> C:\Users\ktc\Documents\C-_1\x64\Debug\CPP3.exe
