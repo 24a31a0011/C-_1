@@ -1,0 +1,14 @@
+﻿  D3DManager.cpp
+  Input.cpp
+  Shader.cpp
+  CPP3.cpp
+  コードを生成中...
+DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(SpriteBatch.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(SpriteFont.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(SpriteFont.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(Keyboard.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(Keyboard.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(BufferHelpers.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(BufferHelpers.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(CommonStates.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(CommonStates.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(VertexTypes.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(VertexTypes.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(pch.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTK.lib(BinaryReader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' が 'DirectXTK.lib(BinaryReader.obj)' で、または 'C:\Users\ktc\Documents\C-_1\x64\Debug\DirectXTK.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  CPP3.vcxproj -> C:\Users\ktc\Documents\C-_1\x64\Debug\CPP3.exe
